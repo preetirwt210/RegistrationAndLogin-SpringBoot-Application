@@ -8,6 +8,7 @@ import com.newproject.springboot.myApp.model.User;
 import com.newproject.springboot.myApp.services.UserServices;
 
 @org.springframework.web.bind.annotation.RestController
+
 public class RestController {
 
 	@Autowired

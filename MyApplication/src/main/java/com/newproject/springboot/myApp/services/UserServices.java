@@ -2,7 +2,7 @@ package com.newproject.springboot.myApp.services;
 
 import javax.transaction.Transactional;
 
-import org.springframework.stereotype.Component;
+
 import org.springframework.stereotype.Service;
 
 import com.newproject.springboot.myApp.model.User;
