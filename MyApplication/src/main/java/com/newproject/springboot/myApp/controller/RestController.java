@@ -19,7 +19,7 @@ public class RestController {
 		return " This is homePage";
 	}
 	
-	@GetMapping("/user-saved")
+	@GetMapping("/saveuser")
 	public String saveUser(@RequestParam String userName,@RequestParam String firstName,@RequestParam String lastName
 			,@RequestParam int age,@RequestParam String password ) {
 		

@@ -6,4 +6,5 @@ import com.newproject.springboot.myApp.model.User;
 
 public interface UserRepository extends CrudRepository<User, Integer> {
 
+	public User findByUserNameAndPassword(String userName, String password);
 }
